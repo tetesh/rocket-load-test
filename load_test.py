@@ -57,7 +57,7 @@ def upload_file_to_room():
         rocket = RocketChat(server_url=server_url)
         rocket.login(i[0], i[1])
         login_count += 1
-        if rocket.rooms_upload(room_id, 'ТУ СКС1.docx').status_code == 200:
+        if rocket.rooms_upload(room_id, file_to_upload).status_code == 200:
             print(f'User {i[0]} upload file success!')
             upload_files_count += 1
         time.sleep(random.randint(6, 20))
