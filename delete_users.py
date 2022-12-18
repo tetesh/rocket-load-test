@@ -7,7 +7,7 @@ admin_login = 'ssss'
 admin_password = 'sssss'
 
 file_name_users_registered = 'users_registered_13_07_2022.txt'
-server_url = 'https://rocket-chat.21-school.ru'
+server_url = 'https://rocket-chat.example.org'
 
 with open(file_name_users_registered) as f:
     data = f.read()

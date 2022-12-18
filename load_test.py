@@ -6,7 +6,7 @@ import json, time, random
 
 # all
 file_name_users_registered = 'users_registered_13_07_2022.txt'
-server_url = 'https://rocket-chat.21-school.ru'
+server_url = 'https://rocket-chat.example.org'
 
 # upload_file_to_room
 room_id = 'r5puyEqPeohwpn4LT'
